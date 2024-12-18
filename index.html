@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY TETRIS</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+  
+</head>
+<body>
+  <div class="graid">
+    <div class="droite-column">
+        <div class="states-bar">
+            <img src="images/logo.png" alt="jeu logo" class="transparent">
+            <p>Score: <span id="score">0</span></p>
+            <p>Lignes: <span id="lignes">0</span></p>
+            <p>Niveau: <span id="niveau">0</span></p><br>
+            <div class="paites">
+               <p class="paite-nesuivant">Suivant: </p>
+               <canvas id="nesuivant" class="transparent"></canvas>
+
+               <p class="paite-nesuivant">Prise: </p>
+               <canvas id="holed" class="transparent"></canvas>
+            </div>
+        </div>
+    </div>
+      <canvas id="boared" class="jeu-boared"></canvas>
+      <div class="gauche-column">
+        <div>
+            <h3>Commandes de jeu</h3>
+            <p><kbd><span>&#x2192;</span></kbd> Déplacer à droite </p>
+            <p><kbd><span>&#x2190;</span></kbd> Déplacer à gauche </p>
+            <p><kbd><span>&#x2191;</span></kbd> Tourner à droite</p>
+            <p><kbd>Q</kbd> Tourner à droite</p>
+            <p><kbd><span>&#x2193;</span></kbd> Goutte sol</p>
+            <p><kbd>SPACE</kbd> Chute dure</p>
+            <p><kbd>P</kbd> Pause</p>
+            <p><kbd>C</kbd> Tenir la piéces</p>
+        </div>
+
+        <div class="buttons">
+            <audio id="varaudio">
+                <source src="varaudio/audio1.mp3" type="audio/mpeg">
+            </audio>
+            <button onclick="play()" class="play-button">Jouer</button>
+            <button onclick="playMusiq()" class="musiq-button" id="musiq-button">En/Hors Musique</button>
+          </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="varaudio.js"></script>
+  <script type="text/javascript" src="taconct.js"></script>
+  <script type="text/javascript" src="boared.js"></script>
+  <script type="text/javascript" src="tetromano.js"></script>
+  <script type="text/javascript" src="main2.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+<footer class="footer mt-3">
+    <div class="container">
+        <span class="text-muted footer">
+
+          </span>
+    </div>
+</footer>
+</html>

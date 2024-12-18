@@ -1,0 +1,51 @@
+    
+
+    Cours sur laravel
+
+    1 Installation de composer 
+
+    - Il faut taper cette commande qui suit 
+
+    * Laravel installer:"composr global require laravel/install"
+
+     - Aprés l'installation de composer on peut déjà créer un nouveau project avec la commande suivante 
+
+     *laravel new app-varmel
+
+        - c'est-à-dire laravel new en suit le nom de ton application.
+    
+    * composer: composer create
+    -project laravel/laravel exemple le nom du project .
+     
+     - C'est-à-dire remplacé l'exemple par le nom du project taper la commande qui suit 
+
+     -composer create
+    project laravel/laravel app-varmel.
+
+    2. Les routes dans Laravel
+
+    * c'est quoi les routing ou routages
+
+    * Comment créer nos propos routes dans laravel
+
+    * Les routes avec parameètres
+
+    * Comment gérer les liens des routes dans les vues 
+
+    * Comment rediriger dans laravel 
+
+
+    3 Controleur dans laravel
+
+    * C'est quoi le controleur 
+
+    * Comment créer un controleur 
+
+    * Comment créer des fonctions dans un controlleur
+
+    * Passer des controleurs au niveau des routes 
+
+    * Comment passer des paramètres des routes au controleurs 
+
+    * Comment passer des paramètres des controleurs au vues
+
